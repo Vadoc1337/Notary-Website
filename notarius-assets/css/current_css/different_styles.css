@@ -1,0 +1,145 @@
+.mobile-panel {
+    background-color: #943635 !important;
+}
+
+.phone_number {
+    display: grid;
+    width: fit-content;
+}
+
+#toTop {
+    margin-bottom: 100px;
+}
+
+#inheritance-img {
+    margin-top: 1.5rem;
+    bottom: 20px !important;
+    width: 5.125rem;
+    height: 5.125rem;
+}
+
+#inheritance-text {
+    color: black;
+}
+
+.services-item-inner:hover #inheritance-text {
+    color: white !important;
+}
+
+#inheritance-separator {
+    width: 12.5rem;
+    border-bottom: 0.1875rem solid rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+#inheritance-padding-style {
+    padding: 1.875rem 1.25rem 1.875rem 1.875rem !important;
+}
+
+#announcement {
+    text-align: center;
+    text-wrap: balance;
+    color: red;
+    z-index: 1;
+}
+
+#announcement-padding-style {
+    padding: 0.875rem 1rem 1rem 1rem !important;
+}
+.services-item-inner:hover .translate {
+    color: white;
+}
+.translate {
+    color: #943635;
+    font-size: 60px !important;
+}
+.material-symbols-outlined {
+    font-family: "Material Symbols Outlined";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+.service-icon path {
+    fill: #943634;
+}
+
+.services-item-inner:hover path {
+    fill: #ffffffe6;
+}
+
+.highlight {
+    animation-name: higlight-animation;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes higlight-animation {
+    20% {
+        background-color: yellow;
+    }
+    40% {
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+            rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    }
+    80% {
+        background-color: none;
+    }
+    100% {
+        box-shadow: none;
+    }
+}
+
+.elementor-widget-container a:hover {
+    color: #953836;
+}
+
+img[alt="www.000webhost.com"] {
+    display: none;
+}
+
+.title-decoration__big {
+    font-size: 3rem;
+}
+
+.title_wrap {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0.5rem;
+    text-align: center;
+}
+
+#info_o_dejstvii > div > p,
+li,
+span {
+    text-align: left;
+    text-wrap: pretty;
+}
+.elementor-text-editor p {
+    text-align: justify;
+}
+
+#elementor-tab-content-1289,
+#elementor-tab-content-1337,
+#elementor-tab-content-24415,
+#elementor-tab-content-3103,
+#elementor-tab-content-1692,
+#elementor-tab-content-1843 {
+    border-bottom: none;
+}
+
+#needs {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
